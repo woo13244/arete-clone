@@ -1,0 +1,42 @@
+.Carousel{
+    position: relative;
+    z-index: 2;
+    margin:auto;
+    margin-top: 350px;
+    display: flex
+}
+.Slider{
+    width: 870px;
+    height: 70px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+.carouselButtons{
+    background: none;
+    border: none;
+    color: #ccc;
+}
+.carouselArrowDown{
+    padding-top: 7px;
+    font-size: 20px
+}
+.carouselSlide{
+    cursor: pointer;
+    width: 200px;
+}
+.arrowLeft{
+    width:40px;
+    height: 10px;
+    background-size: 40px;
+    background-image : url("https://daks2k3a4ib2z.cloudfront.net/5701419a1fdcb0fe29343740/570189451fdcb0fe293496dd_arrow%20left.png")
+}
+.arrowRight{
+    width:40px;
+    height: 10px;
+    background-size: 40px;
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5701419a1fdcb0fe29343740/5703e47a9eaba6f4558027bc_arrow%20right.png")
+}

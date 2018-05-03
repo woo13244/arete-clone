@@ -1,0 +1,68 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.vidContainer{
+    width: 100vw;
+    background-color: black
+}
+.videoBackground{
+    min-width: 100vw;
+    overflow-y: hidden;
+    position: relative;
+}
+.contactTab{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer
+}
+.aboutTab{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+.aboutTab div, .contactTab div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.smallArrow{
+    width:20px;
+    height: 7px;
+    background-size: 30px;
+    background-image: url("https://daks2k3a4ib2z.cloudfront.net/5701419a1fdcb0fe29343740/570189451fdcb0fe293496dd_arrow%20left.png");
+    margin-right: 10px
+}
