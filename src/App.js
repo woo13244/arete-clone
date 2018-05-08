@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {HashRouter, Route} from 'react-router-dom';
 import Home from './Component/Home/Home'
-import Carousel from './Component/Carousel/Carousel'
+import Test from './Component/Carousel/Carousel'
 class App extends Component {
   render() {
     return (
@@ -11,7 +11,7 @@ class App extends Component {
         <HashRouter>
           <div>
             <Route exact path="/" component={Home}></Route>
-            <Route path="/test" component={Carousel}></Route>
+            <Route path="/test" component={Test}></Route>
           </div>
         </HashRouter>
       </div>

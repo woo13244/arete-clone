@@ -6,10 +6,10 @@ export default class Home extends Component{
     render(){
         return(
             <div className="Home">
-                <div className="aboutTab">
-                    <div>
+                <div>
+                    <div className="aboutTab">
                         <div className="smallArrow"></div>
-                        <div>about</div>
+                        <div className="tabText">about</div>
                     </div>
                 </div>
                 <div className="vidContainer">
@@ -20,7 +20,7 @@ export default class Home extends Component{
                 <div className="contactTab">
                     <div>
                         <div className="smallArrow"></div>
-                        <div>contact</div>
+                        <div className="tabText">contact</div>
                     </div>
                 </div>           
                 <Title/>  
