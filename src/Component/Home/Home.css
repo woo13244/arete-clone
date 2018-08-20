@@ -18,19 +18,20 @@
 .contactTab{
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 25px;
     z-index: 2;
     color: white;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    padding: 0px 10px 0px 10px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    width: 50px;
     letter-spacing: 3px;
     cursor: pointer;
     padding: 0px
@@ -43,7 +44,6 @@
     color: white;
     height: 100vh;
     writing-mode: vertical-lr;
-    padding: 0px 10px 0px 10px;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -67,6 +67,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column
+}
+.contactTab:hover{
+    width:60px;
+    right: 15px;
+    transition-duration: .4s
 }
 .smallArrow{
     width:20px;

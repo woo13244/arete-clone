@@ -6,7 +6,7 @@ export default class Home extends Component{
     render(){
         return(
             <div className="Home">
-                <div>
+                <div className="aboutTab_container">
                     <div className="aboutTab">
                         <div className="smallArrow"></div>
                         <div className="tabText">about</div>
@@ -18,10 +18,8 @@ export default class Home extends Component{
                     </video>
                 </div>
                 <div className="contactTab">
-                    <div>
                         <div className="smallArrow"></div>
                         <div className="tabText">contact</div>
-                    </div>
                 </div>           
                 <Title/>  
             </div>

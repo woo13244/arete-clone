@@ -1,0 +1,13 @@
+.About{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.aboutContentContainer{
+    width: 35vw;
+    font-size: 15px
+}
